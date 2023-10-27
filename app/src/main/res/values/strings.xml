@@ -1,0 +1,135 @@
+<!--
+     Copyright (C) 2020 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">BluetoothLeChat</string>
+    <string name="no_devices_found">No BLE devices found</string>
+    <string name="chat_title">Chat</string>
+    <string name="device_list_title">Pair with new device</string>
+    <string name="location_required_error">The location permission is required to support Bluetooth Low Energy communication</string>
+    <string name="grant_permission_prompt">Grant Location Permission</string>
+    <string name="active_scan_message">Scanning for devices</string>
+    <string name="bt_not_enabled">Please enable Bluetooth in order to scan for devices</string>
+    <string name="enable_bluetooth_prompt">Enable Bluetooth</string>
+    <string name="bt_ads_not_supported">Bluetooth Advertisements are not supported on this device</string>
+    <string name="chat_confirm_message">Would you like to chat with %1$s</string>
+    <string name="chat_deny_button">No</string>
+    <string name="chat_confirm_button">Yes</string>
+    <string name="no_connected_device_message">Not connected to a device</string>
+    <string name="connect_device_prompt">Connect with nearby devices</string>
+    <string name="send_message_button">Send Message</string>
+    <string name="chatting_with_device">Chatting with %1$s</string>
+    <string name="your_device_address">Your device address:</string>
+    <string name="available_devices">Available Devices</string>
+    <string name="scanning_header">Choose a device to chat with:</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="iteration">Iteration Count</string>
+    <string name="new_iteration">New Iteration Count</string>
+    <string name="terms_and_condition"><![CDATA[I have read and agree to the terms & conditions]]></string>
+    <string name="copy_rights">© 2021 Cyber Intelligence Platform. All Rights Reserved</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="cyber_intelligence_platform">CYBER INTELLIGENCE</string>
+    <string name="innovative_approch_to_defending_networks_againts_sophisticated_attacks_provides_complete_protection_for_any_enterprise">Innovative approach to defending networks against sophisticated attacks provides complete protection for any enterprise</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="required_email">Email is required</string>
+    <string name="valid_email">You must include a valid email address</string>
+    <string name="required_password">Password is required</string>
+    <string name="required_iteration">Iteration is required</string>
+    <string name="iteration_accept">Iteration accept minimum 50 number</string>
+    <string name="iteration_max_accept">Iteration accept maximum 5000 number</string>
+    <string name="have_an_account">Already have an account?</string>
+    <string name="not_an_account">Create Account Here</string>
+    <string name="required_first">First name is required</string>
+    <string name="required_captcha">Captcha is required</string>
+    <string name="required_last">Last name is required</string>
+    <string name="company_name_required">Company name is required</string>
+    <string name="required_phone">Phone number is required</string>
+    <string name="password_not_correct">Password length should be at least 5, 1 digit(s), 1 upper case letter(s), and 1 special character(s).</string>
+    <string name="password_not_match">Password do not match</string>
+    <string name="inventory_dashboard">Inventory Dashboard</string>
+    <string name="key_management">Key Management</string>
+    <string name="all_dashboard">All Dashboards</string>
+    <string name="pam_dashboard">PAM Dashboard</string>
+    <string name="eps_dashboard">EPS Dashboard</string>
+    <string name="dt_dashboard">DT Dashboard</string>
+    <string name="es_dashboard">ES Dashboard</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="filter_week">Week</string>
+    <string name="filter_month">Month</string>
+    <string name="filter_year">Year</string>
+    <string name="filter_custom">Custom</string>
+    <string name="clear">Clear</string>
+    <string name="cancel">Cancel</string>
+    <string name="apply">Apply</string>
+    <string name="end_date">End Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="date_filter">Date Filter</string>
+    <string name="recent_ioc_searches">Recent IOC Searches</string>
+    <string name="most_recent_ioc_searches">Most Recent Exploits</string>
+    <string name="reported_incident">Reported Incidents</string>
+    <string name="incident_honeyport">Incidents by Honeypot Service</string>
+    <string name="incident_honeyport_bar">Incidents by Honeypot Service Bar Graph</string>
+    <string name="top_attackers_bar">Top Attackers by IP Address</string>
+    <string name="incident_over_time">Incidents Over Time</string>
+    <string name="reported_phis_mail">Users That Reported Most Phish Mails</string>
+    <string name="received_phis_mail">Users That Received Most Phish Mails</string>
+    <string name="number_of_email">Number of Emails</string>
+    <string name="domain_send_phis_mail">Domain That Sends Most Phish Mails</string>
+    <string name="false_emails">Users That Send False Positive Emails</string>
+    <string name="malware_detected">Malware Detected result</string>
+    <string name="enpast_login_statics">PAM Login Statistics</string>
+    <string name="incident_statics">Incident Stats</string>
+    <string name="dt_incident_statics">Incident Stats</string>
+    <string name="top_browsers">Top 5 Browsers</string>
+    <string name="stats">Stats</string>
+    <string name="status_overview">Overview</string>
+    <string name="workstations_and_incidents">Workstations and Incidents</string>
+    <string name="top_incidents">Top Incidents</string>
+    <string name="number_of_ioc">Number of IOC</string>
+    <string name="number_of_exploit">Number of Exploits</string>
+    <string name="number_of_malware">Number of Malware</string>
+    <string name="notification">Notifications</string>
+    <string name="notification_type">Notifications Type</string>
+    <string name="rev">Rev</string>
+    <string name="bits">Bits</string>
+    <string name="general_setting">General Settings</string>
+    <string name="select_a_default_theme_for_your_dashboard">Select a default theme for your dashboard</string>
+    <string name="select_a_default_language_for_your_dashboard">Select a default language for your dashboard</string>
+    <string name="choose_something">Choose something</string>
+    <string name="choose_notification_Type">Choose notifications type.</string>
+    <string name="user_settings_updated">User settings updated.</string>
+    <string name="select_atleast_one_notification_type">Please select atleast one notification type.</string>
+    <string name="save">Save</string>
+    <string name="dark">Dark</string>
+    <string name="note">Note</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="join_now"><u>Join Now</u></string>
+    <string name="email">Email</string>
+    <string name="email_hint">john@mail.czom</string>
+    <string name="new_password">New Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Login</string>
+    <string name="forgot_your_password">Forgot Password?</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="register_now">Register Now</string>
+    <string name="already_have_an_account_login_now">Already have an account? <b>Login Now</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

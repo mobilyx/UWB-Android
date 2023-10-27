@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:elevation="0dp"
+    app:cardBackgroundColor="#f2f2f3"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/transactionPersonImage"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/profile" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:layout_gravity="center_vertical"
+            >
+
+            <TextView
+                android:id="@+id/transactionPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jennifer Stone"
+                style="@style/RobotoMedium"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@color/black_color"
+                />
+
+            <TextView
+                android:id="@+id/transactionStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_5sdp"
+                style="@style/RobotoRegular"
+                android:text="Received"
+
+                />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView
+                android:id="@+id/transactionAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/RobotoBold"
+                android:text="$2000"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black_color"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
