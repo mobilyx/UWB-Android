@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <color name="colorPrimary">#3c817c</color>
-    <color name="colorPrimaryDark">#000</color>
+    <color name="colorPrimary">#538aa1</color>
+    <color name="colorPrimaryDark">#3B4F55</color>
     <color name="colorAccent">#010101</color>
 
     <color name="white">#fff</color>
@@ -98,7 +98,7 @@
     <color name="copy_right">#191919</color>
     <color name="stroke_color">#E6FFFFFF</color>
     <color name="card_stroke_color">#E6FFFFFF</color>
-    <color name="button_primary_bg">#3c817c</color>
+    <color name="button_primary_bg">#538aa1</color>
     <color name="button_secondary_bg">#DFDFDF</color>
     <color name="color_credantails">#3980EB</color>
     <color name="color_forgot_password">#E02F31</color>

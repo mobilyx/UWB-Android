@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/bluetoothChatFragment"
-        android:name="com.invozone.contactlesspayment.chat.BluetoothChatFragment"
+        android:name="com.invozone.paymat.chat.BluetoothChatFragment"
         android:label="BluetoothChatFragment" >
         <action
             android:id="@+id/action_bluetoothChatFragment_to_transactionSuccessFragment"
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/deviceListFragment"
-        android:name="com.invozone.contactlesspayment.scan.DeviceScanFragment"
+        android:name="com.invozone.paymat.scan.DeviceScanFragment"
         android:label="DeviceListFragment" >
         <action
             android:id="@+id/action_deviceListFragment_to_bluetoothChatFragment"
@@ -38,11 +38,11 @@
     </fragment>
     <fragment
         android:id="@+id/locationRequiredFragment"
-        android:name="com.invozone.contactlesspayment.bluetooth.LocationRequiredFragment"
+        android:name="com.invozone.paymat.bluetooth.LocationRequiredFragment"
         android:label="LocationRequiredFragment" />
     <fragment
         android:id="@+id/enableBluetoothFragment"
-        android:name="com.invozone.contactlesspayment.bluetooth.EnableBluetoothFragment"
+        android:name="com.invozone.paymat.bluetooth.EnableBluetoothFragment"
         android:label="EnableBluetoothFragment" >
         <action
             android:id="@+id/action_check_location_permissions"
@@ -51,7 +51,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.invozone.contactlesspayment.LoginFragment"
+        android:name="com.invozone.paymat.LoginFragment"
         android:label="LoginFragment" >
         <action
             android:id="@+id/action_selection_fragment"
@@ -60,7 +60,7 @@
 
     <fragment
         android:id="@+id/selectionFragment"
-        android:name="com.invozone.contactlesspayment.SelectionFragment"
+        android:name="com.invozone.paymat.SelectionFragment"
         android:label="SelectionFragment" >
         <action
             android:id="@+id/action_selectionFragment_to_deviceListFragment"
@@ -68,7 +68,7 @@
     </fragment>
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.invozone.contactlesspayment.SplashFragment"
+        android:name="com.invozone.paymat.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -79,7 +79,7 @@
     </fragment>
     <fragment
         android:id="@+id/transactionSuccessFragment"
-        android:name="com.invozone.contactlesspayment.TransactionSuccessFragment"
+        android:name="com.invozone.paymat.TransactionSuccessFragment"
         android:label="fragment_transaction_success"
         tools:layout="@layout/fragment_transaction_success" />
 </navigation>

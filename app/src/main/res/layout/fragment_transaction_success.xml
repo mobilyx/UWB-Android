@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         style="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/black_color"
+        android:layout_marginTop="@dimen/_20sdp"
         android:text="Transaction Successful"
         android:textStyle="bold"
         />
@@ -27,9 +28,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/moneyStatus"
         style="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/black_color"
-        android:text="Money Received"
         android:layout_marginTop="@dimen/_30sdp"
         />
     <TextView
@@ -37,9 +38,15 @@
         android:layout_height="wrap_content"
         style="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/black_color"
+        android:id="@+id/amount"
         android:textStyle="bold"
-        android:text="$14000"
         android:layout_marginTop="@dimen/_10sdp"
+        />
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@mipmap/ic_launcher"
         />
 
     <TextView
@@ -47,8 +54,8 @@
         android:layout_height="wrap_content"
         style="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/black_color"
-        android:text="Oct 24,2023, 14:22:00"
-        android:layout_marginTop="@dimen/_30sdp"
+        android:text="Oct 28,2023, 02:40:00"
+        android:layout_marginTop="@dimen/_20sdp"
         />
     <TextView
         android:layout_width="wrap_content"
